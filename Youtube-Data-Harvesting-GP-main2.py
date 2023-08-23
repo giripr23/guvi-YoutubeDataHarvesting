@@ -252,9 +252,9 @@ if submit:
     ## mycol2 = mydb["video_data"]
     ## mycol3 = mydb["comment_data"]
 
-    x = mycol1.delete_many({})    ## Delete all rows from channel_data ==> Only on debugging
-    y = mycol2.delete_many({})    ## Delete all rows from video_data   ==> Only on debugging
-    z = mycol3.delete_many({})    ## Delete all rows from comment_data ==> Only on debugging
+    ## x = mycol1.delete_many({})    ## Delete all rows from channel_data ==> Only on debugging
+    ## y = mycol2.delete_many({})    ## Delete all rows from video_data   ==> Only on debugging
+    ## z = mycol3.delete_many({})    ## Delete all rows from comment_data ==> Only on debugging
 
     ## print(x.deleted_count, " Channels deleted.") ## Debugging code start ##
     ## print(y.deleted_count, " Videos deleted.")
